@@ -77,6 +77,6 @@ You can calculate `font size` as following:
 
 ## Maintainers
 
-- [Kanan Yusubov](https://github.com/KenanYusubov)
+- [Kanan Yusubov](https://github.com/yusubx)
 
 
