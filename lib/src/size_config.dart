@@ -36,11 +36,7 @@ class SizeConfig {
       isMobilePortrait = false;
     }
 
-    final double hRatio = _screenHeight / designScreenHeight;
-
-    textMultiplier = hRatio;
-    imageSizeMultiplier = hRatio;
-    heightMultiplier = hRatio;
-    widthMultiplier = _screenWidth / designScreenWidth;
+    imageSizeMultiplier = heightMultiplier = _screenHeight / designScreenHeight;
+    widthMultiplier = textMultiplier = _screenWidth / designScreenWidth;
   }
 }

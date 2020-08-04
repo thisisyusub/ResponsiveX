@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
 import './size_config.dart';
 
-/// Extension to use values using [BuildContext]
-extension ResponsiveExtension on BuildContext {
-  double computeHeight(double height) => SizeConfig.heightMultiplier * height;
+/// Extension to use values using [num]
 
-  double computeWidth(double width) => SizeConfig.widthMultiplier * width;
+extension Responsive on num {
+  double get height => SizeConfig.heightMultiplier * this;
 
-  double computeFontSize(double fontSize) => SizeConfig.textMultiplier * fontSize;
+  double get width => SizeConfig.widthMultiplier * this;
+
+  double get fontSize => SizeConfig.textMultiplier * this;
 }

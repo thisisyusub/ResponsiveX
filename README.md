@@ -48,22 +48,22 @@ Then you can use `extension methods` to calculate  `height`, `width` and `font s
 
 ```dart
           Container(
-            height: context.computeHeight(100),
-            width: context.computeWidth(100),
+            height: 100.height,
+            width: 100.width,
             color: Colors.pink,
           ),
 ```
 You can calculate `font size` as following:
 ```dart
           Container(
-              height: context.computeHeight(100),
-              width: context.computeWidth(100),
+              height: 100.height,
+              width: 100.width,
               color: Colors.pink,
               child: Center(
                 child: Text(
                   'ResponsiveX',
                   style: TextStyle(
-                    fontSize: context.computeFontSize(14),
+                    fontSize: 14.fontSize,
                     color: Colors.white,
                   ),
                 ),
@@ -73,7 +73,7 @@ You can calculate `font size` as following:
 ---
 
 ## Dart Versions
-- Dart 2: >= 2.6.0
+- Dart 2: >= 2.7.0
 
 ## Maintainers
 
