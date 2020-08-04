@@ -1,3 +1,7 @@
+## [0.0.7] - August 4 2020
+
+* Example provided
+
 ## [0.0.6] - August 4 2020
 
 * Documentation improved
