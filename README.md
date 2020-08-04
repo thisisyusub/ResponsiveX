@@ -68,9 +68,9 @@ Container(
       style: TextStyle(
         fontSize: 14.fontSize,
         color: Colors.white,
-        ),
       ),
     ),
+  ),
 ),
 ```
 ---
