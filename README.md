@@ -1,3 +1,6 @@
+![GitHub](https://img.shields.io/github/license/yusubx/ResponsiveX)
+![Pub Version](https://img.shields.io/pub/v/responsive_x)
+
 # ResponsiveX
 
 A simple Flutter package to handle responsiveness.
