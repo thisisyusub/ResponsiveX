@@ -1,5 +1,6 @@
-## [0.1.0] - August 4 2020
+## [0.1.1] - August 4 2020
 
+* initial major release
 * Minor fixes
 
 ## [0.0.9] - August 4 2020
