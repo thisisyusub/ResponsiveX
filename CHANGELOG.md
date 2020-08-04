@@ -1,4 +1,8 @@
-## [0.0.7] - August 4 2020
+## [0.0.9] - August 4 2020
+
+* Documentation comments improved
+
+## [0.0.8] - August 4 2020
 
 * Example provided
 
