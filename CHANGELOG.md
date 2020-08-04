@@ -1,3 +1,7 @@
+## [0.0.10] - August 4 2020
+
+* Minor fixes
+
 ## [0.0.9] - August 4 2020
 
 * Documentation comments improved

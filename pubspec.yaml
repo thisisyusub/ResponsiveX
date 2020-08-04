@@ -1,6 +1,6 @@
 name: responsive_x
 description: A simple Flutter package to handle responsiveness using extensions
-version: 0.0.9
+version: 0.0.11
 homepage: https://github.com/yusubx/ResponsiveX
 repository: https://github.com/yusubx/ResponsiveX
 
