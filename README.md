@@ -50,28 +50,28 @@ class MyApp extends StatelessWidget {
 Then you can use `extension methods` to calculate  `height`, `width` and `font size` dynamically:
 
 ```dart
-          Container(
-            height: 100.height,
-            width: 100.width,
-            color: Colors.pink,
-          ),
+Container(
+  height: 100.height,
+  width: 100.width,
+  color: Colors.pink,
+),
 ```
 You can calculate `font size` as following:
 ```dart
-          Container(
-              height: 100.height,
-              width: 100.width,
-              color: Colors.pink,
-              child: Center(
-                child: Text(
-                  'ResponsiveX',
-                  style: TextStyle(
-                    fontSize: 14.fontSize,
-                    color: Colors.white,
-                  ),
-                ),
-              ),
-            ),
+Container(
+  height: 100.height,
+  width: 100.width,
+  color: Colors.pink,
+  child: Center(
+    child: Text(
+      'ResponsiveX',
+      style: TextStyle(
+        fontSize: 14.fontSize,
+        color: Colors.white,
+        ),
+      ),
+    ),
+),
 ```
 ---
 
